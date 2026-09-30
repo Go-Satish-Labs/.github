@@ -1,14 +1,12 @@
-name: Analytrix Daily Contribution
+name: Analytrix Daily Reminder
 
 on:
-  workflow_dispatch:
-
   schedule:
+    # 9:00 AM IST = 3:30 AM UTC
     - cron: "30 3 * * *"
 
-permissions:
-  contents: read
-  issues: write
+  # Allows manual testing
+  workflow_dispatch:
 
 jobs:
   daily-reminder:
@@ -26,9 +24,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Send Analytrix Daily Reminder
+      - name: Send Analytrix Morning Emails
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
         run: python scripts/daily_reminder.py
