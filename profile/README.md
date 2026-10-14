@@ -2,7 +2,7 @@
 
 <img src="https://avatars.githubusercontent.com/u/330108793?s=200&v=4" width="110" alt="Go-Satish-Labs logo"/>
 
-# 🧪 [Go-Satish-Labs](https://go-satish-labs.github.io/Info-Labs/)
+# 🧪 [Go-Satish-Labs](https://go-satish-labs.github.io/Discover/)
 
 ### Your Innovation In Your Hands
 
