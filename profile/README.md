@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/330108793?s=200&v=4" width="110" alt="Go-Satish-Labs logo"/>
+<img src="./ico.gif" width="110" alt="Go-Satish-Labs animated logo" />
 
 # 🧪 [Go-Satish-Labs](https://go-satish-labs.github.io/Discover/)
 
